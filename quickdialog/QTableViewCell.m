@@ -83,7 +83,7 @@ static const int kCellMinimumLabelWidth = 80;
             detailsWidth = detailsWidth - valueSize.width - kCellMarginDouble;
 
         self.detailTextLabel.frame = CGRectMake(
-                self.contentView.bounds.size.width - detailsWidth - kCellMargin,
+                self.contentView.bounds.size.width - detailsWidth - kCellMargin - 5,
                 kCellMargin,
                 detailsWidth,
                 self.contentView.bounds.size.height- kCellMarginDouble);
