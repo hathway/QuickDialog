@@ -69,7 +69,7 @@
 - (CGRect)calculateFrameForEntryElement {
     int extra = (self.textField.clearButtonMode == UITextFieldViewModeNever) ? 15 :10;
     if (_entryElement.title == NULL && _entryElement.image==NULL) {
-        return CGRectMake(10,10,self.contentView.frame.size.width-10-extra, self.frame.size.height-20);
+        return CGRectMake(15,10,self.contentView.frame.size.width-10-extra, self.frame.size.height-20);
     }
     if (_entryElement.title == NULL && _entryElement.image!=NULL){
         self.imageView.image = _entryElement.image;
